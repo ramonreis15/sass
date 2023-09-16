@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+.container .esquerdo {
+  width: 50%;
+  background-color: #C0DBEA;
+}
+.container .esquerdo .texto {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 100px;
+  color: #E8A0BF;
+}
+.container .direito {
+  width: 50%;
+  background-color: #E8A0BF;
+}
+.container .direito .texto {
+  margin-top: 40%;
+  text-align: center;
+  font-size: 100px;
+  color: #C0DBEA;
+}/*# sourceMappingURL=style.css.map */
+
+@media(max-width: 450px){
+  .container {
+    display: grid;
+  }
+
+  .container .esquerdo, .container .direito {
+    width: 100%;
+  }
+
+}
